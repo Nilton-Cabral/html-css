@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+header>h1{
+    display: inline-block;
+    color: orange;
+}
+header>nav{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+header>form{
+    display: inline-block;
+    margin-right: 0px;
+}
+
+header>form>input{
+    width: 95px;
+    height: 25px;
+    margin-right: 0px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+header>form>input::placeholder{
+    color: white;
+}
+
+.type{
+    margin-right: -1px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: transparent;
+}
+.search{
+    width: 60px;
+    height: 36px;
+    margin-left: -3px;
+    background-color: orange;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+nav>a{
+    margin: 5px;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav>a:hover{
+    border: 1px solid white;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first{
+    width: 55%;
+    margin: 5px;
+    color: white;
+    text-align: left;
+    flex-grow: 2;
+}
+
+main>div>h1{
+    color: orange;
+}
+
+.second{
+    margin: 5px;
+    padding: 15px;
+    width: 170px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.login{
+    width: 175px;
+    height: 33px;
+    margin: 15px 0px 15px 0px;
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.secondh2{
+    margin: 10px 0px px 0px;
+    border-radius: 5px;
+    color: orange;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+main>div>form>input{
+    padding: 5px;
+    margin: 8px auto 8px auto;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+main>div>p>a{
+    text-decoration: none;
+    color: orange;
+}
+
+.join{
+    display: block;
+    width: 100px;
+    margin: 15px 0px 5px 0px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.with{
+    margin-bottom: 10px;
+}
+
